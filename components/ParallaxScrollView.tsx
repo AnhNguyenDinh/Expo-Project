@@ -9,6 +9,7 @@ import Animated, {
 
 import { ThemedView } from '@/components/ThemedView';
 import { useBottomTabOverflow } from '@/components/ui/TabBarBackground';
+import React from 'react';
 
 const HEADER_HEIGHT = 250;
 
@@ -70,12 +71,12 @@ const styles = StyleSheet.create({
   },
   header: {
     height: HEADER_HEIGHT,
-    overflow: 'hidden',
+    // overflow: 'hidden',
   },
   content: {
     flex: 1,
     padding: 32,
-    gap: 16,
-    overflow: 'hidden',
+    // gap: 16,
+    // overflow: 'hidden',
   },
 });

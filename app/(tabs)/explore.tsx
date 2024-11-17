@@ -6,6 +6,8 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
+import SwitchTab from '@/components/SwitchTab';
+import React from 'react';
 
 export default function TabTwoScreen() {
   return (
@@ -19,6 +21,7 @@ export default function TabTwoScreen() {
           style={styles.headerImage}
         />
       }>
+         <SwitchTab />
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Explore</ThemedText>
       </ThemedView>
